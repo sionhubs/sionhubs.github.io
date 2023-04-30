@@ -1,0 +1,94 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+}
+
+header {
+  background-image: url("../src/image/intro.jpg");
+  background-size: cover;
+  opacity: 0.5;
+  padding: 20rem;
+  color: white;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+header p {
+  margin: 0;
+}
+
+#profile {
+  background-color: rgb(197, 223, 231);
+  padding: 20rem;
+}
+
+#profile h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.idea {
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+#hobby {
+  background-color: white;
+  padding: 20rem;
+}
+
+#hobby h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#hobby ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#hobby ul img {
+  width: 30rem;
+  height: 20rem;
+  margin: 1rem;
+  object-fit: cover;
+  display: block;
+}
+
+#hobby ul span {
+  font-size: 1.2rem;
+}
+
+#future {
+  background-color: rgb(197, 223, 231);
+  padding: 20rem;
+}
+
+#future h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 3rem;
+}
+
+.icons {
+  filter: invert();
+  display: flex;
+  justify-content: center;
+}
+
+.icons div img {
+  object-fit: cover;
+  width: 5rem;
+  margin: 1rem;
+}
