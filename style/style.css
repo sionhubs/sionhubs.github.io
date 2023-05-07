@@ -21,9 +21,15 @@ header p {
   margin: 0;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #profile {
   background-color: rgb(197, 223, 231);
-  padding: 20rem;
+  padding: 2rem;
 }
 
 #profile h2 {
@@ -38,7 +44,7 @@ header p {
 
 #hobby {
   background-color: white;
-  padding: 20rem;
+  padding: 2rem;
 }
 
 #hobby h2 {
@@ -65,9 +71,42 @@ header p {
   font-size: 1.2rem;
 }
 
+#record {
+  background-color: white;
+  padding: 2rem;
+}
+
+#record h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* 버튼 호버 스타일 */
+.button:hover {
+  background-color: #0069d9;
+}
+
+/* 버튼 액티브 스타일 */
+.button:active {
+  background-color: #0053ba;
+}
+
 #future {
   background-color: rgb(197, 223, 231);
-  padding: 20rem;
+  padding: 2rem;
 }
 
 #future h2 {
